@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Avenir-Light;
+    src: url(fonts/Avenir-Light.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Medium;
+    src: url(fonts/Avenir-Medium.ttf)
+}
+
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url(fonts/Avenir-Heavy.ttf)
+}
+
+body {
+    margin: 0;
+    font-family: Avenir-Light;
+}
+
+.website-header {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.website-header-title {
+    margin: 0;
+    font-family: Avenir-Medium;
+}
+
+
+.website-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.menu-links {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-links:visited {
+    color: white;
+}
+
+.website-menu-home {
+    margin: 0;
+}
+
+
+.website-menu-home:hover {
+    text-decoration: underline;
+}
+
+
+.website-menu-home:visited {
+    color: white;
+}
+
+.website-menu-artisti {
+    margin: 0;
+    cursor: pointer;
+}
+
+.website-menu-artisti:hover {
+    text-decoration: underline;
+}
+
+
+.website-menu-mostra {
+    margin: 0;
+    font-family: Avenir-Heavy;
+    cursor: pointer;
+}
+
+.website-menu-mostra:hover {
+    text-decoration: underline;
+}
+
+
+.website-menu-info-utili {
+    margin: 0;
+    cursor: pointer;
+}
+
+.website-menu-info-utili:hover {
+    text-decoration: underline;
+}
+
+
+
+.arrow-back-home {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.arrow-contents:hover {
+    text-decoration: underline;
+}
+
+.arrow-contents {
+    cursor: pointer;
+    margin-top: 68px;
+    margin-left: 77px;
+}
+
+
+.arrow-text {
+    margin: 0;
+    font-size: 24px;
+    padding-left: 13px;
+}
+
+.back-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back-home:link {
+    color: black;
+    text-decoration: none;
+}
+
+.back-home:visited {
+    color: black;
+}
+
+.website-title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 114.8px;
+    padding-bottom: 215px;
+}
+
+.title {
+    font-family: Avenir-Medium;
+    font-size: 96px;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: Avenir-Medium;
+    font-size: 36px;
+    margin: 0;
+}
+
+.dates {
+    font-size: 24px;
+    margin: 0;
+}
+
+.mostra-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.mostra-description {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 215px;
+    width: 736px;
+}
+
+.description-normal {
+    margin: 0;
+}
+
+.description-bolded {
+    margin: 0;
+    font-family: Avenir-Medium;
+}
+
+
+.website-footer {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.website-footer-privacy {
+    margin: 0;
+}
+
+.website-footer-social {
+    margin: 0;
+}
+
+.website-footer-chi-siamo {
+    margin: 0;
+}
